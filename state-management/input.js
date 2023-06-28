@@ -9,6 +9,15 @@ export default class InputHandler {
                 case "d":
                     this.lastKey = 'PRESS right';
                     break;
+                case "s":
+                    this.lastKey = 'PRESS down';
+                    break;
+                case "w":
+                    this.lastKey = 'PRESS up';
+                    break;
+                case " ":
+                    this.lastKey = 'PRESS space';
+                    break;
             }
         })
 
@@ -19,6 +28,15 @@ export default class InputHandler {
                     break;
                 case "d":
                     this.lastKey = 'RELEASE right';
+                    break;
+                case "s":
+                    this.lastKey = 'RELEASE down';
+                    break;
+                case "w":
+                    this.lastKey = 'RELEASE up';
+                    break;
+                case " ":
+                    this.lastKey = 'RELEASE jump';
                     break;
             }
         })
